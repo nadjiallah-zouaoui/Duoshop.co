@@ -19,41 +19,91 @@
         </ul>
     </div>
 
-    <section class="max-w-7xl mx-auto px-4 py-8">
-    <div class="flex flex-col lg:flex-row gap-8 lg:gap-10 items-center lg:items-start">
+    <div class="flex flex-col lg:flex lg:flex-row flex-wrap items-start gap-6 mx-23 -my-20">
 
-        <!-- Image principale (EN PREMIER sur mobile) -->
-        <div class="flex justify-center shrink-0 order-1 lg:order-2">
-            <img
-                src="asset/image/products/TshirtGreen4Big.svg"
-                class="w-64 sm:w-72 md:w-96 shrink-0"
-            >
-        </div>
+        <!-- petites images Col 1-->
+        <section class="flex flex-row gap-3.5  ">
+            <div class="sm:flex sm:flex-col sm:justify-end">
+                <img src="asset/image/products/TshirtGreen1.png" class="w-38 h-41.5 rounded-2xl border">
+                <img src="asset/image/products/TshirtGreen2.png" class="w-38 h-41.5 rounded-2xl">
+                <img src="asset/image/products/TshirtGreen3.png" class="w-38 h-41.5 rounded-2xl">
 
-        <!-- Texte -->
-        <div class="flex flex-col gap-4 text-center lg:text-left order-2 lg:order-3">
-            <h1 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold">
-                ONE LIFE GRAPHIC T-SHIRT
-            </h1>
-
-            <div class="flex items-center gap-2 justify-center lg:justify-start">
-                <img src="asset/image/products/stars.png" class="w-24 sm:w-28">
-                <p class="text-sm text-gray-600">4.5/5</p>
             </div>
+            
+            <div class="flex flex-col ">
+                <img src="asset/image/products/TshirtGreen4Big.svg" class="rounded-2xl">
+            </div>
+            
+        </section>
+
+        <!-- grande image Col 2 -->
+        <div class="">
+
         </div>
 
-        <!-- Miniatures (EN BAS sur mobile) -->
-        <div class="flex flex-row lg:flex-col gap-3 shrink-0 order-3 lg:order-1">
-            <img src="asset/image/products/TshirtGreen1.png"
-                 class="w-20 h-28 sm:w-24 sm:h-32 rounded-2xl shrink-0 cursor-pointer">
-            <img src="asset/image/products/TshirtGreen2.png"
-                 class="w-20 h-28 sm:w-24 sm:h-32 shrink-0 cursor-pointer">
-            <img src="asset/image/products/TshirtGreen3.png"
-                 class="w-20 h-28 sm:w-24 sm:h-32 shrink-0 cursor-pointer">
+        <!-- Col 3  -->
+        <div class="flex flex-col">
+            <h1 class="text-[40px]">ONE LIFE GRAPHIC T-SHIRT</h1>
+            <div class="flex items-center">
+                <img src="asset/image/products/stars.png" alt="" class="w-30 my-2">
+                <span class="mx-3">4.5/5</span>
+            </div>
+
+            <div class="flex items-center gap-3 text-[32px]">
+                <span>$260</span>
+                <span class="text-gray-400 line-through mr-3">$300</span>
+                <span class="text-red-400 text-[16px] font-semibold ">-40%</span>
+            </div>
+            <p class="mt-2 text-gray-600 text-[16px]">This graphic t-shirt which is perfect for any occasion. Crafted
+                from a soft and <br> breathable fabric,
+                it offers superior comfort and style.</p>
+
+            <p class=" text-gray-600 mt-9">Select Colors</p>
+            <div class="flex mt-2 gap-3">
+                <button class="bg-amber-950 w-6 h-6 rounded-full"></button>
+                <button class="bg-green-950 w-6 h-6 rounded-full"></button>
+                <button class="bg-purple-950 w-6 h-6 rounded-full"></button>
+            </div>
+
+            <p class="mt-7 text-[16px] text-gray-600">Choose Size</p>
+            <div class="mt-5 flex gap-17 text-[16px]">
+                <p>Small</p>
+                <p>Medium</p>
+                <button class="bg-black text-white rounded-2xl p-1 w-17">Large</button>
+                <p>X-Large</p>
+            </div>
+
+
+            <div class="flex gap-6 mt-13">
+                <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14" />
+                    </svg>
+
+                </button>
+
+                <p>1</p>
+
+                <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                    </svg>
+                </button>
+
+                <button class=" ml-auto bg-black text-white rounded-3xl p-2 w-80">Add Cart</button>
+            </div>
+
         </div>
 
     </div>
-</section>
+
+    <div class="flex flex-row flex-wrap justify-center text-[16px] gap-60 pt-30 ">
+        <p>Rating</p>
+        <p>Products</p>
+        <p>FAQs</p>
+    </div>
 
 </body>
 
