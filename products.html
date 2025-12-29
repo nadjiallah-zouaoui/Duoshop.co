@@ -19,27 +19,27 @@
         </ul>
     </div>
 
-    <div class="flex flex-col lg:flex lg:flex-row flex-wrap items-start gap-6 mx-23 -my-20">
+    <div class="flex flex-col flex-wrap lg:flex-row items-start gap-6 mx-23 -my-20">
 
-        <!-- petites images Col 1-->
-        <section class="flex flex-row gap-3.5  ">
-            <div class="sm:flex sm:flex-col sm:justify-end">
-                <img src="asset/image/products/TshirtGreen1.png" class="w-38 h-41.5 rounded-2xl border">
-                <img src="asset/image/products/TshirtGreen2.png" class="w-38 h-41.5 rounded-2xl">
-                <img src="asset/image/products/TshirtGreen3.png" class="w-38 h-41.5 rounded-2xl">
+        <div class="flex flex-col lg:flex-row gap-6 items-start">
 
-            </div>
-            
-            <div class="flex flex-col ">
-                <img src="asset/image/products/TshirtGreen4Big.svg" class="rounded-2xl">
-            </div>
-            
-        </section>
+  <!-- Grand t-shirt -->
+  <div class="order-1 lg:order-2">
+    <img
+      src="asset/image/products/TshirtGreen4Big.svg"
+      class="rounded-2xl w-full max-w-md"
+    >
+  </div>
 
-        <!-- grande image Col 2 -->
-        <div class="">
+  <!-- Petites images -->
+  <div class="order-2 lg:order-1 flex flex-row lg:flex-col gap-3">
+    <img src="asset/image/products/TshirtGreen1.png" class="w-24 rounded-2xl border">
+    <img src="asset/image/products/TshirtGreen2.png" class="w-24 rounded-2xl border">
+    <img src="asset/image/products/TshirtGreen3.png" class="w-24 rounded-2xl border">
+  </div>
 
-        </div>
+</div>
+
 
         <!-- Col 3  -->
         <div class="flex flex-col">
@@ -58,6 +58,7 @@
                 from a soft and <br> breathable fabric,
                 it offers superior comfort and style.</p>
 
+            <!-- Choix couleur  -->
             <p class=" text-gray-600 mt-9">Select Colors</p>
             <div class="flex mt-2 gap-3">
                 <button class="bg-amber-950 w-6 h-6 rounded-full"></button>
@@ -74,10 +75,11 @@
             </div>
 
 
+            <!-- Bouton retirer / ajout  -->
             <div class="flex gap-6 mt-13">
                 <button>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="size-6">
+                        stroke="currentColor" class="size-6 -my-5">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14" />
                     </svg>
 
@@ -87,7 +89,7 @@
 
                 <button>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="size-6">
+                        stroke="currentColor" class="size-6 -my-5">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
                     </svg>
                 </button>
@@ -99,10 +101,24 @@
 
     </div>
 
-    <div class="flex flex-row flex-wrap justify-center text-[16px] gap-60 pt-30 ">
-        <p>Rating</p>
-        <p>Products</p>
+    <div class="flex flex-row flex-wrap justify-center text-[20px] gap-60 pt-30 w-2/3 ">
+        <p>Product Details</p>
+        <p>Rating & Reviews</p>
         <p>FAQs</p>
+    </div>
+
+    <div class="flex flex-row mt-8">
+        <div class="flex flex-row gap-3 ml-25">
+            <h2>All Reviews</h2>
+            <span>(451)</span>
+        </div>
+
+        <div class="flex flex-row justify-center gap-5 ">
+            <img src="asset/image/products/FilterButton.png" alt="" >
+            <p>Latest</p>
+            <button class="bg-black text-white p-2 rounded-3xl w-50">Write A Review</button>
+        </div>
+
     </div>
 
 </body>
